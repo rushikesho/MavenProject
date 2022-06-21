@@ -5,6 +5,7 @@
     <classes>
       <class name="com.qa.test.LoginPageTest">
         <methods>
+          <include name="closeBrowser"/>
           <include name="lunchBrowser"/>
           <include name="gestTitleOfPageTest"/>
         </methods>
