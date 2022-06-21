@@ -60,7 +60,6 @@ public class TestBase {
 		driver.manage().timeouts().implicitlyWait(TestUtil.Implicit_Wait ,TimeUnit.SECONDS);
 	
 		
-		
 		driver.get(prop.getProperty("url"));
 
 	}
